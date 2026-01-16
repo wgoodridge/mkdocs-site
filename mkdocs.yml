@@ -1,0 +1,25 @@
+site_name: My MkDocs Site
+site_description: Project documentation built with MkDocs
+site_author: William Goodridge
+
+theme:
+  name: material
+  features:
+    - navigation.instant
+    - navigation.tabs
+    - navigation.top
+    - search.highlight
+
+nav:
+  - Home: index.md
+  - About: about.md
+
+markdown_extensions:
+  - admonition
+  - codehilite
+  - toc:
+      permalink: true
+
+plugins:
+  - search
+
